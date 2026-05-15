@@ -1,0 +1,145 @@
+:root {
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --ink: #0f172a;
+  --ink-soft: #475569;
+  --page: #f1f5f9;
+  --surface: #ffffff;
+  --accent: #4f46e5;
+  --accent-2: #0d9488;
+  --radius: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 500;
+  background: linear-gradient(165deg, #e0e7ff 0%, var(--page) 22%, var(--page) 100%);
+  color: var(--ink);
+  line-height: 1.65;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: clamp(1.5rem, 5vw, 2.75rem) clamp(1rem, 4vw, 2rem);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.75) 0%,
+    rgba(248, 250, 252, 0.55) 100%
+  );
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07);
+}
+
+header h1 {
+  margin: 0;
+  font-size: clamp(2.1rem, 5vw, 3.15rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.05;
+  background: linear-gradient(
+    115deg,
+    var(--accent) 0%,
+    #7c3aed 42%,
+    var(--accent-2) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+header h1::after {
+  content: "";
+  display: block;
+  width: min(12rem, 55vw);
+  height: 4px;
+  margin: 1rem auto 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  opacity: 0.85;
+}
+
+header p {
+  margin: 1.15rem auto 0;
+  max-width: 40rem;
+  font-size: clamp(0.95rem, 2.2vw, 1.05rem);
+  font-weight: 500;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
+
+main {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: clamp(1.25rem, 4vw, 2.25rem);
+}
+
+section {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: clamp(1.35rem, 3.5vw, 1.85rem);
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.06);
+}
+
+section h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  color: var(--ink);
+  position: relative;
+  padding-bottom: 0.7rem;
+}
+
+section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.75rem;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+.tarjeta-mensaje h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+
+#btnMensajes,
+#btnCalendario {
+  background: linear-gradient(135deg, var(--accent) 0%, #6366f1 100%);
+  color: #fff;
+  border: none;
+  padding: 0.65rem 1.35rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+#btnMensajes:hover,
+#btnCalendario:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+}
+
+#btnMensajes:active,
+#btnCalendario:active {
+  transform: translateY(0);
+}

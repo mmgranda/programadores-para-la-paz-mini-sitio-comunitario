@@ -1,82 +1,61 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f4f4;
-  color: #222222;
-  line-height: 1.5;
+.decoraciones {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.85rem, 4.2vw + 0.65rem, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin: 0 auto 1rem;
+  padding: 0 0 0.65rem;
+  width: fit-content;
+  max-width: min(92vw, 36rem);
+  position: relative;
+  background: linear-gradient(105deg, #f10707 0%, #d6da0d 50%, #197e0c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
-header {
-  background: #ffffff;
-  padding: 24px;
-  border-bottom: 1px solid #dddddd;
+h2.decoraciones {
+  font-weight: 700;
+  font-size: clamp(1.2rem, 2.2vw + 0.45rem, 1.65rem);
+  max-width: min(92vw, 28rem);
 }
 
-main {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 24px;
+.decoraciones::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: min(11rem, 55%);
+  height: 0.28rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #f10707 0%, #d6da0d 50%, #197e0c 100%);
+  box-shadow: 0 0 1.25rem rgba(59, 130, 246, 0.35);
 }
 
-section {
-  background: #ffffff;
-  margin-bottom: 24px;
-  padding: 20px;
-  border: 1px solid #dddddd;
-  border-radius: 8px;
+h2.decoraciones::after {
+  width: min(7.5rem, 50%);
+  height: 0.2rem;
+  box-shadow: 0 0 0.85rem rgba(59, 130, 246, 0.28);
 }
 
-h1,
-h2,
-h3 {
-  color: #111111;
-}
-
-button {
-  padding: 10px 14px;
-  border: 1px solid #333333;
-  background: #ffffff;
-  color: #111111;
+#btnMensajes {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
-  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  width: 50%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
 }
 
-button:hover {
-  background: #eeeeee;
-}
-
-.tablero {
-  display: grid;
-  gap: 16px;
-  margin-top: 16px;
-}
-
-.tarjeta-mensaje {
-  background: #fafafa;
-  border: 1px solid #dddddd;
-  border-left: 6px solid #555555;
-  padding: 16px;
-  border-radius: 8px;
-}
-
-.etiqueta {
-  display: inline-block;
-  padding: 4px 8px;
-  border: 1px solid #cccccc;
-  border-radius: 6px;
-  margin-right: 6px;
-  margin-bottom: 6px;
-  background: #ffffff;
-}
-
-.texto-secundario {
-  color: #444444;
-  font-size: 0.95rem;
-}
-
-.aviso-seguridad {
-  background: #ffffff;
-  border: 1px solid #cccccc;
-  padding: 12px;
-  border-radius: 8px;
-}
