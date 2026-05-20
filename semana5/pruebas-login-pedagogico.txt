@@ -1,8 +1,8 @@
 Pruebas de login pedagógico – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Marien Tamara Segura Carvajal
+Fecha: 19 de mayo de 2026
+Nombre de la rama: marien_segura
 
 Importante:
 Este login es solo pedagógico. No es autenticación real.
@@ -12,10 +12,10 @@ Prueba 1: Abrir mini-sitio
 Dirección:
 http://localhost:3000
 
-Resultado observado:
+Resultado observado: El navegador carga correctamente la interfaz gráfica del mini-sitio comunitario. En la consola CMD se observa el mensaje indicando que el servidor está corriendo en el puerto 3000.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí, funcionó correctamente.
 
 Prueba 2: Login con credenciales de demostración
 
@@ -28,10 +28,10 @@ demo
 Resultado esperado:
 El servidor responde con mensaje de login pedagógico correcto.
 
-Resultado observado:
+Resultado observado: El servidor procesa la solicitud mediante el endpoint POST /api/login, valida las credenciales y devuelve una respuesta exitosa. En la pantalla se muestra un mensaje de acceso concedido para el entorno educativo.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí, funcionó correctamente.
 
 Prueba 3: Login con clave incorrecta
 
@@ -44,21 +44,21 @@ incorrecta
 Resultado esperado:
 El servidor responde que usuario o clave son incorrectos.
 
-Resultado observado:
+Resultado observado: La interfaz detecta el fallo de autenticación enviado por el servidor, bloquea el acceso al sitio y muestra una alerta indicando que las credenciales ingresadas no son válidas.
 
 ¿Funcionó?
-Respuesta:
+Respuesta: Sí, funcionó correctamente (el sistema denegó el acceso como se esperaba).
 
 Prueba 4: Revisar almacenamiento del token de demostración
 
 ¿Qué token de demostración devuelve el servidor?
 
-Respuesta:
+Respuesta: Devuelve un token simulado de prueba (comúnmente una cadena de texto fija o un mensaje estructurado como "token-falso-de-demostracion-clase24") que sirve para simular la persistencia de la sesión en el frontend.
 
 5. ¿Por qué este token no debe confundirse con seguridad real?
 
-Respuesta:
+Respuesta: Porque las credenciales están expuestas directamente en el código del servidor (están "quemadas" o hardcoded), no viajan encriptadas de forma robusta ni se validan contra una base de datos segura con hash de contraseñas. Es un entorno simulado con fines netamente educativos.
 
 6. ¿Para qué se usará este login en la Clase 25?
 
-Respuesta:
+Respuesta: Se utilizará para aprender a proteger rutas del lado del cliente y del servidor en la siguiente sesión, controlando el flujo de navegación del usuario y restringiendo vistas del mini-sitio comunitario dependiendo de si el token de demostración está almacenado o no en el localStorage.

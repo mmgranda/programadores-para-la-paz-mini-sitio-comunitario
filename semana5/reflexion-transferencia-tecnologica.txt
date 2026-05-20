@@ -1,8 +1,8 @@
 Reflexión sobre transferencia tecnológica – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Marien Tamara Segura Carvajal
+Fecha: 19 de mayo de 2026
+Nombre de la rama: marien_segura
 
 Escribe una reflexión de 8 a 10 líneas respondiendo:
 
@@ -25,3 +25,4 @@ En tu respuesta menciona al menos cinco de estas ideas:
 - cultura de paz
 
 Respuesta:
+Documentar un proyecto comunitario a través de un archivo README detallado es un acto de documentación como transparencia, ya que permite que cualquier persona de la comunidad entienda cómo funciona el mini-sitio sin secretos técnicos. Este proceso asegura la claridad operativa para que otros estudiantes hereden el código de forma organizada, logrando una verdadera transferencia tecnológica donde el conocimiento se comparte libremente. Además, la trazabilidad en Git y la creación de commits claros demuestran el historial honesto del trabajo, respaldado por un uso responsable de IA que sirvió como un apoyo verificable en las tareas de desarrollo. Finalmente, al garantizar la no exposición de credenciales y la no publicación de información sensible, protegemos la seguridad del entorno digital, lo que consolida la confianza comunitaria y fomenta una participación ciudadana activa enfocada en construir una sólida cultura de paz.
