@@ -86,38 +86,38 @@ Respuesta:
 
 Pieza 5
 
-Semana:
-Día:
+Semana:2
+Día:Miercoles 
 Fecha:
-Tema:
-Tipo de pieza:
-Canal:
-Público objetivo:
-Propósito:
+Tema:Lenguaje responsable 
+Tipo de pieza:recordartorio de lenguaje responsable 
+Canal:red comunitaria
+Público objetivo:jovenes participantes 
+Propósito:reforzar criterios de lenguaje responsable y no estigmatiznte 
 Responsable:
-Mensaje:
-Tono:
-Llamado a la acción:
-Fuente o criterio de verificación:
-Observaciones editoriales:
+Mensaje: la participacion digital fortalece la comunidad cuando usamos lenguaje claro y respetuso y no estigmatizante 
+Tono:pedagojico
+Llamado a la acción:comparte tus ideas sin atacar a otras personas 
+Fuente o criterio de verificación:equipo de comunicaciones 
+Observaciones editoriales:aprobada
 ¿Usa lenguaje responsable y no estigmatizante?
-Respuesta:
+Respuesta:si 
 
 Pieza 6
 
-Semana:
-Día:
+Semana:2
+Día:viernes 
 Fecha:
-Tema:
-Tipo de pieza:
-Canal:
-Público objetivo:
-Propósito:
+Tema:cierre de fifuncion responsable 
+Tipo de pieza:cierre de fifuncion responsable 
+Canal:Moodle o mini-sitio
+Público objetivo:comunidad general
+Propósito:Cerrar la campaña y recoger aprendizajes.
 Responsable:
-Mensaje:
-Tono:
-Llamado a la acción:
-Fuente o criterio de verificación:
-Observaciones editoriales:
+Mensaje:Los avisos deben indicar propósito, fecha, fuente y acción esperada para evitar confusión.
+Tono:informativo
+Llamado a la acción:Consulta el balance y propone mejoras.
+Fuente o criterio de verificación:Equipo de seguimiento
+Observaciones editoriales:aprobada
 ¿Usa lenguaje responsable y no estigmatizante?
-Respuesta:
+Respuesta:si
