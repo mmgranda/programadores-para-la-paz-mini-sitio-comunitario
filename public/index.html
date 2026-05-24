@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mini-sitio comunitario</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,7 +30,7 @@
       <p>
         Esta sección funciona como vitrina comunitaria. Los mensajes se cargan desde la API propia.
       </p>
-      <button id="btnMensajes">Cargar mensajes</button>
+      <button id="btnMensajes" class="btn-cargar" type="button">Cargar mensajes</button>
       <div id="contenedorMensajes" class="tablero">
         Aquí aparecerán los mensajes comunitarios.
       </div>
@@ -39,7 +41,7 @@
       <p>
         El calendario editorial se consulta desde el backend y permite organizar publicaciones responsables.
       </p>
-      <button id="btnCalendario">Cargar calendario</button>
+      <button id="btnCalendario" class="btn-cargar" type="button">Cargar calendario</button>
       <div id="contenedorCalendario" class="tablero">
         Aquí aparecerán las piezas del calendario editorial.
       </div>
@@ -50,7 +52,7 @@
       <p>
         Esta sección muestra un resumen generado por el backend a partir de los datos del proyecto.
       </p>
-      <button id="btnResumen">Cargar resumen</button>
+      <button id="btnResumen" class="btn-cargar" type="button">Cargar resumen</button>
       <div id="contenedorResumen" class="tablero">
         Aquí aparecerá el resumen del proyecto.
       </div>

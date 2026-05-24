@@ -1,12 +1,126 @@
-.decoracion {
-  color: blue;
-  background-color: lightblue;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-padding: 10px 20px;
-border-radius: 10px;
-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-margin: 20px auto;
-width: 100%;
+section .decoracion {
+  font-family: "Outfit", system-ui, sans-serif;
+  font-size: clamp(1.25rem, 3vw, 1.6rem);
+  font-weight: 700;
+  text-align: left;
+  margin: 2rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  color: #1e293b;
+  border-left: 5px solid #2563eb;
+  background: linear-gradient(90deg, #dbeafe, #eff6ff);
+}
+
+section:nth-of-type(2) .decoracion {
+  border-left-color: #16a34a;
+  background: linear-gradient(90deg, #dcfce7, #f0fdf4);
+}
+
+section:nth-of-type(3) .decoracion {
+  border-left-color: #ca8a04;
+  background: linear-gradient(90deg, #fef9c3, #fffbeb);
+}
+
+section:nth-of-type(4) .decoracion {
+  border-left-color: #db2777;
+  background: linear-gradient(90deg, #fce7f3, #fdf2f8);
+}
+
+/* Botón principal — sección mensajes (verde, como el título) */
+.btn-cargar {
+  font-family: "Outfit", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 45%, #15803d 100%);
+  border: none;
+  border-radius: 12px;
+  padding: 0.9rem 1.85rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  box-shadow:
+    0 4px 16px rgba(22, 163, 74, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-cargar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 65%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.55s ease;
+}
+
+.btn-cargar:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.06);
+  box-shadow:
+    0 10px 28px rgba(22, 163, 74, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn-cargar:hover::before {
+  transform: translateX(120%);
+}
+
+.btn-cargar:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(22, 163, 74, 0.35);
+}
+
+.btn-cargar:focus-visible {
+  outline: 3px solid #86efac;
+  outline-offset: 3px;
+}
+
+/* Rejilla donde aparecen las tarjetas */
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+/* Cada tarjeta de mensaje */
+.tarjeta-mensaje {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.25rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-mensaje:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.15);
+}
+
+.tarjeta-mensaje h3 {
+  margin: 0 0 0.5rem;
+  color: #1e293b;
+}
+
+.tarjeta-mensaje .etiqueta {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  margin: 0.2rem;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.tarjeta-mensaje .texto-secundario {
+  font-size: 0.85rem;
+  color: #94a3b8;
 }
