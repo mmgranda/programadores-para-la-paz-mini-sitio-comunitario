@@ -1,8 +1,8 @@
 Pruebas del tablero de mensajes – Clase 22
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Yesenia Bolaños
+Fecha:25-05-2026
+Nombre de la rama: yesenia-bolanos
 
 Prueba 1: Abrir mini-sitio
 
@@ -15,7 +15,7 @@ El mini-sitio abre correctamente y muestra estructura visual con estilos.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 2: Verificar hoja de estilos
 
@@ -28,7 +28,7 @@ La página muestra fondo, secciones, botones y tarjetas con estilos básicos.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 3: Cargar mensajes
 
@@ -41,7 +41,7 @@ Los mensajes aparecen como tarjetas legibles.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 4: Revisar datos visibles
 
@@ -57,7 +57,7 @@ fuente
 Resultado observado:
 
 ¿Aparecen datos innecesarios?
-Respuesta:
+Respuesta:si
 
 Prueba 5: Cargar calendario
 
@@ -70,9 +70,9 @@ El calendario aparece como tarjetas con información resumida.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Conclusión:
 ¿Qué mejora visual ayudó más a entender la información comunitaria?
 
-Respuesta:
+Respuesta:se ve todo mas bonito mas ordenado
