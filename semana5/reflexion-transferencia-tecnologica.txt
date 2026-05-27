@@ -1,0 +1,27 @@
+Reflexión sobre transferencia tecnológica – Clase 24
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Escribe una reflexión de 8 a 10 líneas respondiendo:
+
+¿Por qué documentar un proyecto comunitario ayuda a la transparencia, la continuidad y la confianza?
+
+En tu respuesta menciona al menos cinco de estas ideas:
+
+- transferencia tecnológica
+- documentación como transparencia
+- README
+- claridad operativa
+- uso responsable de IA
+- apoyo verificable de IA
+- trazabilidad en Git
+- commits claros
+- no exposición de credenciales
+- no publicación de información sensible
+- confianza comunitaria
+- participación ciudadana
+- cultura de paz
+
+Respuesta:

@@ -1,0 +1,68 @@
+Pruebas de middleware simple – Clase 25
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Importante:
+Este middleware es pedagógico. No representa seguridad real de producción.
+
+Prueba 1: Ruta protegida sin login
+
+Acción:
+Abrir el mini-sitio y probar la revisión editorial protegida sin iniciar sesión.
+
+Resultado esperado:
+El sistema debe negar el acceso o indicar que falta token.
+
+Resultado observado:
+
+¿Funcionó?
+Respuesta:
+
+Prueba 2: Login pedagógico
+
+Usuario:
+docente
+
+Clave:
+demo
+
+Resultado esperado:
+El sistema responde login pedagógico correcto y guarda token de demostración.
+
+Resultado observado:
+
+¿Funcionó?
+Respuesta:
+
+Prueba 3: Ruta protegida después del login
+
+Acción:
+Probar revisión editorial protegida después del login.
+
+Resultado esperado:
+El sistema permite ver la respuesta de revisión editorial pedagógica.
+
+Resultado observado:
+
+¿Funcionó?
+Respuesta:
+
+Prueba 4: Token incorrecto
+
+Explica qué debería pasar si el token no coincide con el esperado.
+
+Respuesta:
+
+5. ¿Qué hace el middleware simple?
+
+Respuesta:
+
+6. ¿Por qué este middleware no debe confundirse con seguridad real?
+
+Respuesta:
+
+7. ¿Qué aprendiste sobre rutas públicas y rutas protegidas?
+
+Respuesta:

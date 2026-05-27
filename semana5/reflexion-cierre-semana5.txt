@@ -1,0 +1,45 @@
+Reflexión de cierre de Semana 5 – Clase 25
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Escribe una reflexión de 10 a 12 líneas respondiendo:
+
+¿Cómo cambió tu forma de trabajar desde las primeras clases hasta este proyecto único en GitHub?
+
+En tu respuesta menciona al menos ocho de estas ideas:
+
+- GitHub
+- repositorio
+- rama main
+- rama personal
+- git pull
+- fast-forward
+- git merge
+- commit
+- push
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express
+- API
+- JSON
+- fetch
+- async
+- await
+- tablero de mensajes
+- calendario editorial
+- README
+- login pedagógico
+- middleware simple
+- difusión responsable
+- revisión de fuentes
+- consistencia comunicativa
+- moderación editorial básica
+- lenguaje responsable y no estigmatizante
+- participación ciudadana
+- cultura de paz
+
+Respuesta:

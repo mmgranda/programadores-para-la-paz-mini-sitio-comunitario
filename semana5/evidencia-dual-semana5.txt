@@ -1,0 +1,69 @@
+Evidencia dual de Semana 5 – Clase 25
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+La evidencia dual de Semana 5 está compuesta por:
+
+1. Mini-sitio que consume API
+
+Describe brevemente qué hace el mini-sitio:
+
+Respuesta:
+
+Rutas probadas:
+
+Respuesta:
+
+2. README versionado en Git
+
+Explica qué información contiene el README:
+
+Respuesta:
+
+3. Calendario editorial de dos semanas
+
+Describe el tema general del calendario editorial:
+
+Respuesta:
+
+Número de piezas:
+
+Respuesta:
+
+4. Difusión responsable
+
+¿Cómo garantiza el proyecto una difusión responsable?
+
+Respuesta:
+
+5. Revisión de fuentes
+
+¿Cómo se revisa o menciona la fuente de la información?
+
+Respuesta:
+
+6. Consistencia comunicativa
+
+¿Cómo se mantiene coherencia entre mensajes y piezas?
+
+Respuesta:
+
+7. Moderación editorial básica
+
+¿Qué criterios se deben revisar antes de publicar?
+
+Respuesta:
+
+8. GitHub y trazabilidad
+
+¿Qué commits o avances registraste durante la semana?
+
+Respuesta:
+
+9. Conclusión personal
+
+¿Por qué este proyecto es más completo que un ejercicio técnico aislado?
+
+Respuesta:

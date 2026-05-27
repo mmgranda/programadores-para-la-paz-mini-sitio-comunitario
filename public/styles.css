@@ -1,3 +1,4 @@
+
 section .decoracion {
   font-family: "Outfit", system-ui, sans-serif;
   font-size: clamp(1.25rem, 3vw, 1.6rem);
@@ -124,3 +125,17 @@ section:nth-of-type(4) .decoracion {
   font-size: 0.85rem;
   color: #94a3b8;
 }
+input {
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  #mensajeLogin {
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  
+

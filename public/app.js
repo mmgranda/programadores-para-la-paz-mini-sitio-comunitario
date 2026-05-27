@@ -1,10 +1,23 @@
 const btnMensajes = document.getElementById("btnMensajes")
 const btnCalendario = document.getElementById("btnCalendario")
 const btnResumen = document.getElementById("btnResumen")
+const btnLogin = document.getElementById("btnLogin")
 
 const contenedorMensajes = document.getElementById("contenedorMensajes")
 const contenedorCalendario = document.getElementById("contenedorCalendario")
 const contenedorResumen = document.getElementById("contenedorResumen")
+const mensajeLogin = document.getElementById("mensajeLogin")
+
+const usuario = document.getElementById("usuario")
+const clave = document.getElementById("clave")
+
+const btnRevisionEditorial = document.getElementById("btnRevisionEditorial")
+const contenedorRevisionEditorial = document.getElementById("contenedorRevisionEditorial")
+
+btnRevisionEditorial.addEventListener("click", () => {
+    cargarRevisionEditorial()
+  })
+  
 
 btnMensajes.addEventListener("click", () => {
   cargarMensajes()
@@ -17,6 +30,38 @@ btnCalendario.addEventListener("click", () => {
 btnResumen.addEventListener("click", () => {
   cargarResumen()
 })
+
+btnLogin.addEventListener("click", () => {
+  hacerLogin()
+})
+
+async function hacerLogin() {
+  try {
+    const datosLogin = {
+      usuario: usuario.value,
+      clave: clave.value
+    }
+
+    const respuesta = await fetch("/api/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(datosLogin)
+    })
+
+    const datos = await respuesta.json()
+
+    mensajeLogin.textContent = datos.mensaje
+
+    if (respuesta.ok) {
+      localStorage.setItem("tokenDemo", datos.token)
+      localStorage.setItem("rolDemo", datos.rol)
+    }
+  } catch (error) {
+    mensajeLogin.textContent = "No fue posible realizar el login pedagógico. Revisa el servidor."
+  }
+}
 
 async function cargarMensajes() {
   try {
@@ -103,3 +148,39 @@ async function cargarResumen() {
     contenedorResumen.textContent = "No fue posible cargar el resumen. Revisa que el servidor esté funcionando."
   }
 }
+
+async function cargarRevisionEditorial() {
+    try {
+      const token = localStorage.getItem("tokenDemo")
+  
+      const respuesta = await fetch("/api/revision-editorial", {
+        headers: {
+          "Authorization": token
+        }
+      })
+  
+      const datos = await respuesta.json()
+  
+      contenedorRevisionEditorial.innerHTML = ""
+  
+      const tarjeta = document.createElement("article")
+      tarjeta.classList.add("tarjeta-mensaje")
+  
+      tarjeta.innerHTML = `
+        <h3>Revisión editorial protegida</h3>
+        <p>${datos.mensaje}</p>
+        <p>${datos.recomendacion || ""}</p>
+      `
+  
+      if (datos.criterios) {
+        tarjeta.innerHTML += `
+          <p><strong>Criterios:</strong> ${datos.criterios.join(", ")}</p>
+        `
+      }
+  
+      contenedorRevisionEditorial.appendChild(tarjeta)
+    } catch (error) {
+      contenedorRevisionEditorial.textContent = "No fue posible consultar la ruta protegida."
+    }
+  }
+  

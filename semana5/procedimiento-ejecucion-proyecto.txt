@@ -1,0 +1,76 @@
+Procedimiento de ejecución del proyecto – Clase 24
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
+
+1. Requisitos del entorno
+
+¿Qué debe tener instalado la persona?
+Ejemplos: Git, Node.js, navegador, editor de código.
+
+Respuesta:
+
+2. Clonar repositorio
+
+Comando:
+
+Respuesta:
+
+3. Entrar a la carpeta del proyecto
+
+Comando:
+
+Respuesta:
+
+4. Crear o cambiar a rama personal
+
+Comando:
+
+Respuesta:
+
+5. Instalar dependencias
+
+Comando:
+
+Respuesta:
+
+6. Ejecutar el proyecto
+
+Comando:
+
+Respuesta:
+
+7. Abrir en navegador
+
+Dirección:
+
+Respuesta:
+
+8. Probar rutas de la API
+
+Escribe las rutas que se deben probar:
+
+Respuesta:
+
+9. Probar login pedagógico
+
+Usuario de demostración:
+
+Clave de demostración:
+
+Resultado esperado:
+
+10. Verificación final
+
+¿Cómo sabe la persona que el proyecto está funcionando?
+
+Respuesta:
+
+11. Nota de seguridad
+
+¿Qué información NO debe publicarse?
+
+Respuesta:

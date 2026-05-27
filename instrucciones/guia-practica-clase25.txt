@@ -1,0 +1,117 @@
+Guía práctica – Clase 25
+
+Actividad:
+Cierre integrador de Semana 5: mini-sitio, README, calendario editorial, middleware simple y trazabilidad en GitHub.
+
+Repositorio:
+Repositorio dispuesto por el docente.
+
+Importante:
+Seguimos trabajando en el proyecto único de Semana 5.
+
+No debes trabajar directamente en main.
+No uses credenciales reales.
+No publiques información sensible.
+
+Evidencia:
+La evidencia de esta actividad es únicamente el push de tu rama personal a GitHub.
+
+Pasos obligatorios:
+
+1. Entrar al proyecto
+
+cd programadores-para-la-paz-mini-sitio-comunitario
+
+2. Actualizar main local
+
+git checkout main
+git pull --ff-only origin main
+
+3. Volver a la rama personal
+
+git checkout nombres_apellidos
+
+4. Incorporar los cambios de main a la rama personal
+
+git merge main
+
+5. Verificar rama actual
+
+git branch
+
+6. Levantar el mini-sitio
+
+npm run sitio
+
+7. Abrir en navegador
+
+http://localhost:3000
+
+8. Probar rutas públicas
+
+http://localhost:3000/api/mensajes
+http://localhost:3000/api/calendario
+http://localhost:3000/api/resumen
+
+9. Probar login pedagógico
+
+Usuario:
+docente
+
+Clave:
+demo
+
+10. Probar ruta protegida
+
+Usar el botón de revisión editorial protegida.
+
+11. Revisar server.js
+
+Identificar:
+verificarTokenDemo
+GET /api/revision-editorial
+
+12. Revisar public/app.js
+
+Identificar:
+localStorage.getItem
+Authorization
+cargarRevisionEditorial
+
+13. Revisar README.md
+
+Confirmar que explica:
+propósito
+instalación
+ejecución
+rutas
+login pedagógico
+middleware simple
+GitHub
+evidencia
+
+14. Completar archivos:
+
+semana5/checklist-final-mini-sitio.txt
+semana5/checklist-final-readme.txt
+semana5/checklist-final-calendario-editorial.txt
+semana5/pruebas-middleware-simple.txt
+semana5/evidencia-dual-semana5.txt
+semana5/reflexion-cierre-semana5.txt
+semana5/bitacora-git-proyecto-vivo.txt
+
+15. Revisar cambios
+
+git status
+
+16. Agregar cambios
+
+git add .
+
+17. Crear commit
+
+git commit -m "Clase 25 cierre integrador semana 5"
+
+18. Publicar rama
+
+git push

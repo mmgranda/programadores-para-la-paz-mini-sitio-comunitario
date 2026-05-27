@@ -1,0 +1,49 @@
+Registro de uso verificable de IA – Clase 24
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Importante:
+La IA puede ayudar a mejorar claridad, ordenar pasos y revisar redacción, pero toda sugerencia debe verificarse en el proyecto real.
+
+No debes compartir con IA:
+- contraseñas reales
+- tokens reales
+- datos personales
+- información sensible de la comunidad
+- enlaces privados
+- credenciales de acceso
+
+1. ¿Para qué usaste IA en esta clase?
+Ejemplos: mejorar README, organizar pasos de ejecución, aclarar error, revisar redacción.
+
+Respuesta:
+
+2. Escribe la pregunta que hiciste a la IA:
+
+Respuesta:
+
+3. Resume la respuesta recibida:
+
+Respuesta:
+
+4. ¿Qué parte de la respuesta aplicaste?
+
+Respuesta:
+
+5. ¿Qué parte decidiste no aplicar?
+
+Respuesta:
+
+6. ¿Cómo verificaste en el proyecto que la sugerencia era correcta?
+
+Respuesta:
+
+7. ¿Incluiste datos sensibles o credenciales reales en la consulta?
+
+Respuesta:
+
+8. ¿Qué aprendiste sobre uso responsable de IA?
+
+Respuesta:

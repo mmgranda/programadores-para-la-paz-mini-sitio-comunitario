@@ -1,0 +1,67 @@
+Checklist final del mini-sitio – Clase 25
+
+Nombre del estudiante:
+Fecha:
+Nombre de la rama:
+
+Marca SÍ o NO y explica brevemente.
+
+1. Mini-sitio
+
+¿El mini-sitio abre correctamente en http://localhost:3000?
+
+Respuesta:
+
+2. API propia
+
+¿El mini-sitio consume datos desde la API propia?
+
+Respuesta:
+
+3. Tablero de mensajes
+
+¿Los mensajes se cargan dinámicamente?
+
+Respuesta:
+
+4. Calendario editorial
+
+¿El calendario editorial se muestra correctamente?
+
+Respuesta:
+
+5. Resumen
+
+¿La sección de resumen carga información desde el backend?
+
+Respuesta:
+
+6. Login pedagógico
+
+¿El login pedagógico responde correctamente?
+
+Respuesta:
+
+7. Middleware simple
+
+¿La ruta protegida responde solo después de usar el token de demostración?
+
+Respuesta:
+
+8. Accesibilidad mínima
+
+¿La interfaz tiene títulos, secciones y textos legibles?
+
+Respuesta:
+
+9. Minimización de datos visibles
+
+¿La vista pública evita mostrar datos innecesarios?
+
+Respuesta:
+
+10. Funcionamiento general
+
+¿El proyecto funciona como una herramienta comunitaria básica?
+
+Respuesta:
