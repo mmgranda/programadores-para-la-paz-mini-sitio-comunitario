@@ -1,8 +1,8 @@
 Registro de uso verificable de IA – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Yesenia Bolaños
+Fecha:28-05-2026
+Nombre de la rama:yeseia-bolanos
 
 Importante:
 La IA puede ayudar a mejorar claridad, ordenar pasos y revisar redacción, pero toda sugerencia debe verificarse en el proyecto real.
@@ -18,23 +18,23 @@ No debes compartir con IA:
 1. ¿Para qué usaste IA en esta clase?
 Ejemplos: mejorar README, organizar pasos de ejecución, aclarar error, revisar redacción.
 
-Respuesta:
+Respuesta: para indagar sobre incriptacion y hash
 
 2. Escribe la pregunta que hiciste a la IA:
 
-Respuesta:
+Respuesta: me puedes especificar que es encriptacion cifrado  y hash y sus diferencias 
 
 3. Resume la respuesta recibida:
 
-Respuesta:
+Respuesta:  encriptacion cifrada convertir informacion legible en algo ilegible es reversible y hash es inreversible el servidor nunca sabra cual es la contraseña
 
 4. ¿Qué parte de la respuesta aplicaste?
 
-Respuesta:
+Respuesta:Comprendí la diferencia entre cifrado y hash y cómo se usan para proteger información y contraseñas
 
 5. ¿Qué parte decidiste no aplicar?
 
-Respuesta:
+Respuesta:No apliqué configuraciones técnicas avanzadas porque solo era una consulta teórica
 
 6. ¿Cómo verificaste en el proyecto que la sugerencia era correcta?
 
@@ -42,8 +42,8 @@ Respuesta:
 
 7. ¿Incluiste datos sensibles o credenciales reales en la consulta?
 
-Respuesta:
+Respuesta:no
 
 8. ¿Qué aprendiste sobre uso responsable de IA?
 
-Respuesta:
+Respuesta:Respuesta: Aprendí que la IA puede ayudar a entender conceptos y mejorar el trabajo, pero no se deben compartir datos sensibles y siempre se debe verificar la información antes de aplicarla.

@@ -1,8 +1,8 @@
 Pruebas de login pedagógico – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Yesenia Bolaños
+Fecha:28-05-2026
+Nombre de la rama:yesenia-bolanos
 
 Importante:
 Este login es solo pedagógico. No es autenticación real.
@@ -14,8 +14,8 @@ http://localhost:3000
 
 Resultado observado:
 
-¿Funcionó?
-Respuesta:
+¿Funcionó?si
+Respuesta:abre el mini sitio
 
 Prueba 2: Login con credenciales de demostración
 
@@ -30,8 +30,8 @@ El servidor responde con mensaje de login pedagógico correcto.
 
 Resultado observado:
 
-¿Funcionó?
-Respuesta:
+¿Funcionó?si
+Respuesta: dice que la cale es correcta
 
 Prueba 3: Login con clave incorrecta
 
@@ -46,19 +46,19 @@ El servidor responde que usuario o clave son incorrectos.
 
 Resultado observado:
 
-¿Funcionó?
+¿Funcionó?si
 Respuesta:
 
 Prueba 4: Revisar almacenamiento del token de demostración
 
 ¿Qué token de demostración devuelve el servidor?
 
-Respuesta:
+Respuesta:si
 
 5. ¿Por qué este token no debe confundirse con seguridad real?
 
-Respuesta:
+Respuesta:por que el solo identifica o autoriza pero no protege automaticamente el sistema
 
 6. ¿Para qué se usará este login en la Clase 25?
 
-Respuesta:
+Respuesta:para probar una ruta protegida 

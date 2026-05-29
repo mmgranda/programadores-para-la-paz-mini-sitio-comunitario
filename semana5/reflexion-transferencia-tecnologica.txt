@@ -24,4 +24,12 @@ En tu respuesta menciona al menos cinco de estas ideas:
 - participación ciudadana
 - cultura de paz
 
-Respuesta:
+Respuesta:Documentar un proyecto comunitario es importante porque permite que todas las personas entiendan cómo funciona y qué decisiones se toman.
+La documentación como transparencia ayuda a generar confianza comunitaria y fortalece la participación ciudadana.
+Además, un buen README facilita la claridad operativa y permite que otras personas continúen el trabajo en el futuro.
+La transferencia tecnológica también se vuelve más sencilla cuando la información está organizada y explicada correctamente.
+El uso responsable de IA debe quedar registrado para que exista apoyo verificable de IA y se conozca cómo se utilizó.
+La trazabilidad en Git y los commits claros permiten revisar cambios y responsabilidades dentro del proyecto.
+También es fundamental evitar la exposición de credenciales y la publicación de información sensible para proteger a la comunidad.
+Cuando un proyecto es transparente, seguro y bien documentado, las personas participan con mayor confianza.
+Todo esto contribuye a construir una cultura de paz basada en la colaboración, el respeto y la responsabilidad colectiva.
