@@ -1,8 +1,8 @@
 Evidencia dual de Semana 5 – Clase 25
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Yesenia Bolaños
+Fecha:29-05-2026
+Nombre de la rama:yesenia-bolanos
 
 La evidencia dual de Semana 5 está compuesta por:
 
@@ -10,33 +10,33 @@ La evidencia dual de Semana 5 está compuesta por:
 
 Describe brevemente qué hace el mini-sitio:
 
-Respuesta:
+Respuesta:muestra mensajes comunitarios y un calendario editorial 
 
 Rutas probadas:
 
-Respuesta:
+Respuesta:http://localhost:3000/ http://localhost:3000/api/mensajes http://localhost:3000/api/calendario http://localhost:3000/api/resumen
 
 2. README versionado en Git
 
 Explica qué información contiene el README:
 
-Respuesta:
+Respuesta:todo lo que tiene que ver con la pagina las direcciones disponibles como se usa su objectivo 
 
 3. Calendario editorial de dos semanas
 
 Describe el tema general del calendario editorial:
 
-Respuesta:
+Respuesta:promuebe a la confirmacion de informacion y comunicacion clara y responsable 
 
 Número de piezas:
 
-Respuesta:
+Respuesta:6
 
 4. Difusión responsable
 
 ¿Cómo garantiza el proyecto una difusión responsable?
 
-Respuesta:
+Respuesta:verificando la informacion antes de ser publicada 
 
 5. Revisión de fuentes
 
@@ -48,22 +48,22 @@ Respuesta:
 
 ¿Cómo se mantiene coherencia entre mensajes y piezas?
 
-Respuesta:
+Respuesta:Manteniendo el mismo mensaje, tono y objetivo en todas las publicaciones.
 
 7. Moderación editorial básica
 
 ¿Qué criterios se deben revisar antes de publicar?
 
-Respuesta:
+Respuesta:que sea informacion veridica clara y respetuosa
 
 8. GitHub y trazabilidad
 
 ¿Qué commits o avances registraste durante la semana?
 
-Respuesta:
+Respuesta:hice las actividades de la clase 21,22,23 y 24 desde este mismo repositoro 
 
 9. Conclusión personal
 
 ¿Por qué este proyecto es más completo que un ejercicio técnico aislado?
 
-Respuesta:
+Respuesta:por que este proyecto integra sitio web, api, contenido comunitario documentacio y trabajo con git 
