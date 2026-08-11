@@ -1,8 +1,8 @@
 Pruebas de integración Frontend-Backend – Clase 23
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante: Yesenia Bolaños
+Fecha: 27-05-2026
+---ombre de la rama: yesenia-bolanos
 
 Prueba 1: Backend activo
 
@@ -15,7 +15,7 @@ El servidor inicia en http://localhost:3000 y muestra las rutas disponibles.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 2: Ruta GET /api/mensajes
 
@@ -28,7 +28,7 @@ El navegador muestra datos JSON de mensajes comunitarios.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 3: Ruta GET /api/calendario
 
@@ -41,7 +41,7 @@ El navegador muestra datos JSON del calendario editorial.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 4: Ruta GET /api/resumen
 
@@ -54,7 +54,7 @@ El navegador muestra un resumen generado por la API propia.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 5: Frontend carga mensajes
 
@@ -67,7 +67,7 @@ El tablero muestra mensajes dinámicos desde la API.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 6: Frontend carga calendario
 
@@ -80,7 +80,7 @@ El tablero muestra piezas del calendario desde la API.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 7: Frontend carga resumen
 
@@ -93,9 +93,11 @@ La página muestra totales generados por el backend.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Conclusión:
 ¿Cómo comprobaste que el frontend está conectado con el backend?
 
-Respuesta:
+Respuesta: modifique el titulo del mensaje id 1 en el archivo mensajes.json
+
+

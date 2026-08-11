@@ -1,8 +1,8 @@
 Procedimiento de ejecución del proyecto – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Yesenia Bolaños
+Fecha:28-05-2026
+Nombre de la rama:yesenia-bolanos
 
 Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
 
@@ -11,41 +11,41 @@ Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
 ¿Qué debe tener instalado la persona?
 Ejemplos: Git, Node.js, navegador, editor de código.
 
-Respuesta:
+Respuesta:indepedencias 
 
 2. Clonar repositorio
 
-Comando:
+Comando: git clone url
 
 Respuesta:
 
 3. Entrar a la carpeta del proyecto
 
-Comando:
+Comando:cd programadores-para-la-paz-mini-sitio-comunitario
 
 Respuesta:
 
 4. Crear o cambiar a rama personal
 
-Comando:
+Comando:git checkout nombre-de-la-rama
 
 Respuesta:
 
 5. Instalar dependencias
 
-Comando:
+Comando:npm install
 
 Respuesta:
 
 6. Ejecutar el proyecto
 
-Comando:
+Comando:npm run sitio
 
 Respuesta:
 
 7. Abrir en navegador
 
-Dirección:
+Dirección:http://localhost:3000/
 
 Respuesta:
 
@@ -53,13 +53,13 @@ Respuesta:
 
 Escribe las rutas que se deben probar:
 
-Respuesta:
+Respuesta:http://localhost:3000/api/mensajes http://localhost:3000/api/resumen http://localhost:3000/api/calendario
 
 9. Probar login pedagógico
 
-Usuario de demostración:
+Usuario de demostración:docente
 
-Clave de demostración:
+Clave de demostración:demo
 
 Resultado esperado:
 
@@ -67,10 +67,10 @@ Resultado esperado:
 
 ¿Cómo sabe la persona que el proyecto está funcionando?
 
-Respuesta:
+Respuesta: el proyecto carga sin errores
 
 11. Nota de seguridad
 
 ¿Qué información NO debe publicarse?
 
-Respuesta:
+Respuesta: datos sensibles credenciales verdaderas

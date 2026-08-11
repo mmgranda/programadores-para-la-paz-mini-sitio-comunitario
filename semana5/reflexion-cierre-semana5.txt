@@ -42,4 +42,4 @@ En tu respuesta menciona al menos ocho de estas ideas:
 - participación ciudadana
 - cultura de paz
 
-Respuesta:
+Respuesta:Desde las primeras clases hasta este proyecto en GitHub, mi forma de trabajar cambió mucho. Aprendí a organizar mejor el código usando un repositorio y a realizar commits para guardar los avances. También comprendí la importancia de hacer push y mantener actualizado el trabajo con git pull. Trabajar con la rama main y una rama personal me ayudó a colaborar de forma más ordenada. Mejoré mis conocimientos en HTML, CSS y JavaScript para desarrollar la aplicación. Además, aprendí a utilizar una API y a manejar información en formato JSON. El README me permitió documentar claramente el proyecto y facilitar su comprensión. Con el calendario editorial entendí la importancia de la planificación y la difusión responsable. También aprendí a realizar revisión de fuentes y mantener consistencia comunicativa en los contenidos. En general, este proyecto me permitió integrar conocimientos técnicos y habilidades de trabajo colaborativo en una experiencia más cercana a un proyecto real.

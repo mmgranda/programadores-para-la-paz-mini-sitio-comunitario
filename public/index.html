@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mini-sitio comunitario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Mini-sitio comunitario</h1>
+    <h1 class="decoracion">Mini-sitio comunitario</h1>
     <p>
       Proyecto único de Semana 5 para difusión responsable, calendario editorial, documentación y transferencia tecnológica.
     </p>
@@ -16,13 +19,20 @@
 
   <main>
     <section>
+
+      <h2 class="decoracion">Integración Frontend-Backend</h2>
+
       <h2>Documentación como transparencia</h2>
+
       <p>
         Un proyecto comunitario debe poder entenderse, ejecutarse, probarse y transferirse a otras personas mediante documentación clara.
       </p>
     </section>
 
     <section>
+
+      <h2 class="decoracion">Tablero de mensajes comunitarios</h2>
+
       <h2>Login pedagógico</h2>
       <p>
         Este login es solo una práctica para preparar el concepto de middleware de la Clase 25.
@@ -59,32 +69,33 @@
       
     <section>
       <h2>Tablero de mensajes comunitarios</h2>
+
       <p>
         Esta sección funciona como vitrina comunitaria. Los mensajes se cargan desde la API propia.
       </p>
-      <button id="btnMensajes">Cargar mensajes</button>
+      <button id="btnMensajes" class="btn-cargar" type="button">Cargar mensajes</button>
       <div id="contenedorMensajes" class="tablero">
         Aquí aparecerán los mensajes comunitarios.
       </div>
     </section>
 
     <section>
-      <h2>Calendario editorial</h2>
+      <h2 class="decoracion">Calendario editorial</h2>
       <p>
         El calendario editorial se consulta desde el backend y permite organizar publicaciones responsables.
       </p>
-      <button id="btnCalendario">Cargar calendario</button>
+      <button id="btnCalendario" class="btn-cargar" type="button">Cargar calendario</button>
       <div id="contenedorCalendario" class="tablero">
         Aquí aparecerán las piezas del calendario editorial.
       </div>
     </section>
 
     <section>
-      <h2>Resumen de la API propia</h2>
+      <h2 class="decoracion">Resumen de la API propia</h2>
       <p>
         Esta sección muestra un resumen generado por el backend a partir de los datos del proyecto.
       </p>
-      <button id="btnResumen">Cargar resumen</button>
+      <button id="btnResumen" class="btn-cargar" type="button">Cargar resumen</button>
       <div id="contenedorResumen" class="tablero">
         Aquí aparecerá el resumen del proyecto.
       </div>

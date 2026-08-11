@@ -1,8 +1,8 @@
 Pruebas de middleware simple – Clase 25
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Yesenia Bolaños
+Fecha:29-05-2026
+Nombre de la rama:yesenia-bolanos
 
 Importante:
 Este middleware es pedagógico. No representa seguridad real de producción.
@@ -18,7 +18,7 @@ El sistema debe negar el acceso o indicar que falta token.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 2: Login pedagógico
 
@@ -34,7 +34,7 @@ El sistema responde login pedagógico correcto y guarda token de demostración.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 3: Ruta protegida después del login
 
@@ -47,7 +47,7 @@ El sistema permite ver la respuesta de revisión editorial pedagógica.
 Resultado observado:
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 4: Token incorrecto
 
@@ -61,8 +61,8 @@ Respuesta:
 
 6. ¿Por qué este middleware no debe confundirse con seguridad real?
 
-Respuesta:
+Respuesta:es una funcion que se ejecuta antes de que la ruta protegia responda, comprobar si la peticion trae el token correcto 
 
 7. ¿Qué aprendiste sobre rutas públicas y rutas protegidas?
 
-Respuesta:
+Respuesta:las rutas publica responden sin token mientras que lasprotegidas solo responde si se envia el token de demostracion correcto
